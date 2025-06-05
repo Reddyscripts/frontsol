@@ -1,28 +1,21 @@
 {
-  "name": "solana-drainer-frontend",
+  "name": "solana-drain-demo",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@solana/spl-token": "^0.3.7",
-    "@solana/wallet-adapter-base": "^0.9.15",
-    "@solana/wallet-adapter-react": "^0.15.13",
-    "@solana/wallet-adapter-wallets": "^0.15.13",
-    "@solana/web3.js": "^1.78.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
+    "@solana/web3.js": "^1.78.0",
+    "@solana/wallet-adapter-base": "^0.9.10",
+    "@solana/wallet-adapter-react": "^0.16.4",
+    "@solana/wallet-adapter-wallets": "^0.15.13",
+    "@solana/spl-token": "^0.3.11"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "react-scripts build"
   },
-  "eslintConfig": {
-    "extends": ["react-app", "react-app/jest"]
-  },
-  "browserslist": {
-    "production": [">0.2%", "not dead", "not op_mini all"],
-    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
   }
 }
